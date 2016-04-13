@@ -1,4 +1,13 @@
-//parm(in:&texto, out:&soundex)
+/*
+	Implementación en Genexus del algoritmo Soundex para el idioma español
+	Código adaptado de este artículo: https://wiki.postgresql.org/wiki/SoundexESP
+	
+	Patricio Díaz (padiazg@gmail.com)
+	
+	parm(in:&texto, out:&soundex)
+	&texto 	 CHAR
+	&soundex CHAR
+*/
 
 &soundex.SetEmpty()
 &tmp = &texto.Trim().ToUpper()
