@@ -4,9 +4,23 @@
 	
 	Patricio Díaz (padiazg@gmail.com)
 	
-	parm(in:&texto, out:&soundex)
-	&texto 	 CHAR
-	&soundex CHAR
+	variables		tipo
+	----------------------- -----------
+	caracter		C(1)
+	caracteres_buscar	C(20)
+	caracteres_reemplazar	C(20)
+	i			N(2)
+	primera_letra		C(1)
+	reemplazo		C(1)
+	resto			C(20)
+	soundex			C(20)
+	texto			C(32)
+	tmp			C(32)
+	
+	parámetros
+	-----------------------
+	in:&texto
+	out:&soundex
 */
 
 &soundex.SetEmpty()
