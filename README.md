@@ -1,5 +1,9 @@
-# ejemplos-genexus
+# Soundex Español con Genexus
 
-### Soundex
+### soundex.prc
 
-Es una implementación en Genexus del algoritmo soundex pero para el idioma español
+Es una implementación en Genexus del algoritmo soundex pero para el idioma español. 
+
+### prueba_soundex.prc
+
+Prueba sencilla del algoritmo 
